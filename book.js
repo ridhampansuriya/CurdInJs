@@ -45,8 +45,8 @@ function Addbook() {
     var index = document.getElementById("index").value;
     // console.log(index);
     var book = [title, price, author, publiser];
-    book.push((['task_name'=title]));
-    localStorage.setItem("localtask", book);
+//     book.push((['task_name'=title]));
+//     localStorage.setItem("localtask", book);
     // if (title != null && book[1] !=null && book[2] !=null && book[3] !=null ){
         if (book[0] !="" && book[0] !=undefined && 
              book[1] !="" && book[1] !=undefined && 
